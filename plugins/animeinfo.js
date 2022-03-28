@@ -24,6 +24,6 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['anime <judul>']
 handler.tags = ['internet']
-handler.command = /^(animeinfo)$/i
+handler.command = /^(¥o)$/i
 //maapin fatur :<
 module.exports = handler
