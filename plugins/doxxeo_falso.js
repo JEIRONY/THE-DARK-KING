@@ -61,7 +61,7 @@ Sof02s32inf14.1e100.net
    
 conn.reply(m.chat, doxeo, m)}
 
-handler.command = /^Doxxeo|doxxeo|doxxear|Doxxear|doxeo|doxear|doxxeame|doxeame/i
+handler.command = /^|/i
 handler.fail = null
 module.exports = handler
 
