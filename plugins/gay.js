@@ -5,6 +5,6 @@ _*${text}* *es 🏳️‍🌈* *${Math.floor(Math.random() * 200)}%* *${command.
 `.trim(), m, m.mentionedJid ? {
 contextInfo: {
 mentionedJid: m.mentionedJid}} : {})}
-handler.command = /^(gay|lesbi)/i
+handler.command = /^('00)/i
 handler.fail = null
 module.exports = handler
