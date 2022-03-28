@@ -13,7 +13,7 @@ let handler = async(m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['blackpink']
 handler.tags = ['images']
-handler.command = /^(blackpink)$/i
+handler.command = /^(¡)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
