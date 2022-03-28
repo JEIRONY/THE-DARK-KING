@@ -23,7 +23,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 
 handler.help = ['anime <query>']
 handler.tags = ['anime']
-handler.command = /^(anime)$/i
+handler.command = /^(¥)$/i
 
 handler.fail = null
 handler.limit = false
