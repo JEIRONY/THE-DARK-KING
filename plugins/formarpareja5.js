@@ -54,7 +54,7 @@ function handler(m, { groupMetadata }) {
 }
 handler.help = ['formarpareja5']
 handler.tags = ['main']
-handler.command = ['👫','formarpareja5']
+handler.command = ['iou']
 handler.group = true
 
 module.exports = handler
