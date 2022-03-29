@@ -27,9 +27,6 @@ _6.- Los audios/notas de voz/imágenes/videos o cualquier otro archivo multimedi
 
 _- Si en algún momento recibe un mensaje del numero del Bot y no es un comando posiblemente sea de el propietario del Bot o el propietario del numero, este es un persona real por lo que se le pide que no le falte el respeto_
 
-*➤ Base usada para este Bot:*
-*- https://github.com/BochilGaming/games-wabot*
-
 *Agradecimientos a:*
 *- Unx21*
 *- Narutomo*
@@ -41,17 +38,16 @@ _- Si en algún momento recibe un mensaje del numero del Bot y no es un comando 
 *- The.sad.boy01*
 *- botstylee*
 *- Amel*
+*- BrunoSobrino*
 
 *⁉️ Te quedaron dudas?*
 
 _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al Bot, contáctame a mi numero personal al cual estaré respondiendo lo antes posible para brindarte una solución y/o hacerme responsable de alguna reclamación_ 
-> wa.me/5219996125657
-> Bruno Sobrino 
-> Correo electronico: theshadowbrokers133@gmailcom
+> wa.me/573152139466
 
 → *Solo contactar por temas serios, para preguntas del Bot mas generales contáctame al privado con el comando del comando #owner (al numero wa.me/17722386341)*
 
-*∆ THE SHADOW BROKERS - BOT ∆*
+*∆ THE DARK KING - BOT ∆*
 `.trim(), m)
 let mentionedJid = [m.sender]} 
 handler.customPrefix = /tmm|kk|,|tesad|tekkk/i
