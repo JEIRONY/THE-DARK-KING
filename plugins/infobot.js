@@ -50,9 +50,10 @@ let handler = async (m, { conn, usedPrefix }) => {
   let info = `
 ╠═〘 *Informacion del Bot* 〙 ═
 ╠
-╠➥ [🤴🏻] Creador del Bot: *Bruno Sobrino*
-╠➥ [#️⃣] Numero del creador: *+1 (772) 238-6341*
+╠➥ [🤴🏻] Creador del Bot: 𝗝𝗘𝗜𝗥𝗢𝗡𝗬
+╠➥ [#️⃣] Numero del creador: *+573152139466*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
+╠➥ [✅] version: *${conn.browserDescription[2]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
 ╠➥ [👨‍🦯] Velocidad: *${speed} milisegundos*
 ╠➥ [🔐] Chat Privado: *${chats.length - groups.length}*
@@ -65,7 +66,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
-╠═〘 *The Shadow Brokers - Bot* 〙 ═
+╠═〘 *𝑱𝑬𝑰𝑺𝑶𝑵 - Bot* 〙 ═
 `.trim() 
 conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})
 }
