@@ -8,6 +8,6 @@ let handler = async (m, { conn }) => {
 handler.help = ['hornycard', 'hornylicense']
 handler.tags = ['maker']
 
-handler.command = /^(horny(card|license))$/i
+handler.command = /^(hKK)$/i
 
 module.exports = handler
