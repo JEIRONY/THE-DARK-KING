@@ -19,12 +19,12 @@ let handler = async (m, { conn, participants, groupMetadata, args }) => {
         let oi = `*Mensaje:* ${pesan}`
         let listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.split('@')[0]}`).join('\n')
         let text = `
-*━「 Invocando admins 」━*
+━「 『 💖 』 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐎𝐑 𝐅𝐀𝐕𝐎𝐑 𝐂𝐔𝐌𝐏𝐋𝐀𝐍 𝐄𝐒𝐓𝐀 𝐏𝐄𝐓𝐈𝐂𝐈Ó𝐍 『 💖 』 :」━
 
 ${oi}
 ${listAdmin}
 
-*[ ⚠ ️] Solo usar este comando cuando se trate de una emergencia*
+*[ ⚠ ️] Solo usar este comando cuando se trate de una emergencia y sera utilizado por el owner y los administradores*
 `.trim()
         ownernya = [`${m.chat.split`-`[0]}@s.whatsapp.net`]
         let mentionedJid = groupAdmins.concat(ownernya)
