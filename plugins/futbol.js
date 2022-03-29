@@ -6,5 +6,5 @@ let ShadowBot = json.url
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 conn.sendButtonImg(m.chat, ShadowBot, "*Fútbol 🥅*", '©The Shadow Borkers - Bot', '⚽ SIGUIENTE ⚽', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
-handler.command = /^(***)$/i
+handler.command = /^(uuuu)$/i
 module.exports = handler
