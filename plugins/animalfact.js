@@ -30,6 +30,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 };
 handler.help = ["animal"].map((v) => v + " <hewan>");
 handler.tags = ["internet"];
-handler.command)=['¥' ] 
+handler.command)=['asfdfef' ] 
 
 module.exports = handler;
