@@ -238,6 +238,6 @@ let str = `
 let mentionedJid = [who]
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
 }}
-handler.command = /^(menusimple)$/i
+handler.command = /^(mihhhhh)$/i
 handler.fail = null
 module.exports = handler
