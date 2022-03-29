@@ -1,23 +1,18 @@
-// NO QUITES NI CAMBIES NADA DE AQUI POR FAVOR
-// AGREGA TUS DATOS SI QIERES, PERO NO QUITES LOS MIOS
-// ESTE MEDIO ES EL UNICO METODO DE INGRESO DEL BOT 
-// SI TE HARAS PASAR POR EL CREADOR OFC, DONA LO QUE ESTE EN TUS POSIBILIDADES
 let handler = async m => m.reply(`
 *┏ ┅ ━━━━━━━━━━━━━ ┅ ━*
 *┇       「 DONAR 」*
 *┣ ┅ ━━━━━━━━━━━━━ ┅ ━*
-*┃ ❖ Hola persona hermosa 💙*
+*┃ ❖ Hola mi pana que tal vas, oh veo que deseas donar 💙*
 *┃ 👉🏻 Aquí tienes algunos datos*
 *┃ para que puedas apoyar <3*
 *┃*
-*┃ -   CLABE: 646180192175788481* 
-*┃ -   BANCO: STP* 
-*┃ -   BENEFICIARIO: JOSE SOBRINO* 
+*┃ -   BENEFICIARIO: JEIRONY BENAVIDES (SERVICIOS JAVA)* 
 *┃ -   CONCEPTO: APOYO*  
-*┃➤ PayPal: https://www.paypal.me/TheShadowBrokers133*
+*┃➤ PayPal: https://www.paypal.me/serviciosjava*
+*┃➤ Si eres de colombia puedes hacerlo por Nequi, mas informacion aqui --> https://wa.link/g2376k*
 *┃❖ Contáctame si necesitas otros*
 *┃datos y para darte las gracias <3*
-*┃❖ wa.me/5219996125657*
+*┃❖ wa.me/+573152139466*
 *┗ ┅ ━━━━━━━━━━━━━ ┅ ━*
 `.trim()) 
 handler.command = /^(dona|donar|apoyar|dardinero|apoyo)$/i
