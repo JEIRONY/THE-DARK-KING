@@ -6,5 +6,5 @@ let url = json.url
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 conn.send2ButtonImg(m.chat, url, "*¿Si me pongo de perrito, me adoptas? 🔥🥴*", '©The Shadow Borkers - Bot', '🥵 SIGUIENTE 🥵', `${usedPrefix + command}`, '🔥 LABIBLIA 🔥', `${usedPrefix}labiblia`, m, false, { contextInfo: { mentionedJid }})}
-handler.command = /^(++)$/i
+handler.command = /^(yutyty)$/i
 module.exports = handler
