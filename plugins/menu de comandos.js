@@ -14,49 +14,54 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+╭──────────────────♡
  *JEIRONY*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+ ━━━━━━━━━━ † ━━━━━━━━━━━━
  *𝗛ola, ${username}!!*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+ ━━━━━━━━━━ † ━━━━━━━━━━━━
  *Creador del Bot: JEIRONY* 
- *Numero del creador:* *wa.me/573152139466 (No Bot)*
- *PayPal:* *https://www.paypal.me/serviciosjava*
- Si eres de colombia puedes hacerlo por Nequi, mas informacion aqui --> https://wa.link/g2376k
- *Numero del Bot oficial:* *wa.me/48699559203*
-╰══╡✯✯✯✯✯✯✯✯╞══╯
-┏━━━━━━━━━━━━━┓
+
+- *Numero del creador:* *wa.me/573152139466 (No Bot)*
+ 
+- *PayPal:* *https://www.paypal.me/serviciosjava*
+ 
+- Si eres de colombia puedes hacerlo por Nequi, mas informacion aqui --> https://wa.link/g2376k
+ 
+- *Numero del Bot oficial:* *wa.me/48699559203*
+╰──────────────────♡
+
+╭══════ .✧. ══════╮
 ┃ *MENU*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}sc
 ┣ ${usedPrefix}donar
 ┣ ${usedPrefix}infobot
 ┣ ${usedPrefix}grupos
 ┣ ${usedPrefix}menuaudios
 ┣ ${usedPrefix}estado
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<UNE UN BOT A TU GRUPO/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ UNE UN BOT A TU GRUPO
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}join *link del grupo*
 ┣ ${usedPrefix}bots
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<NUMERO DEL CREADOR/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ NUMERO DEL CREADOR
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}owner
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<JUEGOS/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ JUEGOS
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}math *modo*
 ┣ ${usedPrefix}ttt *nombre del la sala*
 ┣ ${usedPrefix}delttt *nombre del la sala*
 ┣ ${usedPrefix}ppt *piedra / papel / tijera*
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<DESCARGAS/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ DESCARGAS
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}imagen *texto*
 ┣ ${usedPrefix}ytsearch *texto*
 ┣ ${usedPrefix}dlaudio *link yt*
@@ -74,10 +79,10 @@ let menu =`
 ┣ ${usedPrefix}tiktok *link*
 ┣ ${usedPrefix}spotify *autor, cancion*
 ┣ ${usedPrefix}acortar *link*
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<GESTION DE GRUPOS/>* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ GESTION DE GRUPOS 
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣  ${usedPrefix}admins *texto* 
 ┣  ${usedPrefix}añadir *numero* 
 ┣  ${usedPrefix}sacar @tag
@@ -103,10 +108,10 @@ let menu =`
 ┣  ${usedPrefix}fantasmas
 ┣  ${usedPrefix}banchat
 ┣  ${usedPrefix}unbanchat
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<CREADORES/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ CREADORES
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}s
 ┣ ${usedPrefix}sticker
 ┣ ${usedPrefix}attp *texto*
@@ -115,22 +120,22 @@ let menu =`
 ┣ ${usedPrefix}stickerfilter
 ┣ ${usedPrefix}gif *responde a un sticker/video*
 ┣ ${usedPrefix}subirestado *texto / responder video, imagen o gif*
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<AUDIOS/>* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ AUDIOS 
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}menuaudios
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<CONVIERTETE EN BOT/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ CONVIERTETE EN BOT
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}stop
 ┣ ${usedPrefix}jadibot
 ┣ ${usedPrefix}getcode
-┗━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<PROPIETARO DEL BOT/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+╰══════ .✧. ══════╯
+╭══════ .✧. ══════╮
+┃ PROPIETARO DEL BOT
+━━━━━━━━━━ † ━━━━━━━━━━
 ┣ ${usedPrefix}boost
 ┣ ${usedPrefix}restart
 ┣ ${usedPrefix}banlist
@@ -162,9 +167,9 @@ let menu =`
 ┣ ${usedPrefix}setwelcome *@tag*
 ┣ ${usedPrefix}enable *autoread*
 ┣ ${usedPrefix}disable *autoread*
-┗━━━━━━━━━━━━━┛`.trim()
+╰══════ .✧. ══════╯`.trim()
 let mentionedJid = [who]
-conn.sendButtonImg(m.chat, pp, menu, '©JEISON  - Bot', '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, m, false, { contextInfo: { mentionedJid }})   
+conn.sendButtonImg(m.chat, pp, menu, '©JEISON\n █║▌║││█║▌║▌║  - Bot', '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
