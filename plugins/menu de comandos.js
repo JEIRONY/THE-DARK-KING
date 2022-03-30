@@ -27,7 +27,7 @@ let menu =`
  
 - Si eres de colombia puedes hacerlo por Nequi, mas informacion aqui --> https://wa.link/g2376k
  
-- *Numero del Bot oficial:* *wa.me/48699559203*
+- *Numero del Bot oficial:* *wa.me/48459081695*
 ╰───────────♡
 
 ╭═══ .✧. ═══╮
