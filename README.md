@@ -21,9 +21,10 @@
 
 
 ## `EDITOR DEL BOT` 
-[![JEIRONY](blob:https://imgur.com/090eb673-551c-4940-94a6-d68076e134e1)]
-
+[![JEIRONY](https://i.imgur.com/KVqY6z3.jpg)]
+```bash
 `THE DARK KING ___ By JEIRONY` 
+```
 ## `PROPIETARIO DEL BOT`
 [![BrunoSobrino](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://avatars.githubusercontent.com/u/90165013?s=400&u=cdf7fd989e2a787c9f400545147865615c336002&v=4) 
 ```bash
