@@ -21,7 +21,7 @@
 
 
 ## `EDITOR DEL BOT` 
-![JEIRONY](blob:https://imgur.com/090eb673-551c-4940-94a6-d68076e134e1)
+[![JEIRONY](blob:https://imgur.com/090eb673-551c-4940-94a6-d68076e134e1)]
 ```bash
 `THE DARK KING ___ By JEIRONY` 
 ```
