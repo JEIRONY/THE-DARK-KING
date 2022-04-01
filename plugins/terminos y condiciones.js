@@ -50,7 +50,7 @@ _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al
 *∆ THE DARK KING - BOT ∆*
 `.trim(), m)
 let mentionedJid = [m.sender]} 
-handler.customPrefix = /tmm|kk|,|tesad|tekkk/i
+handler.customPrefix = /terminos y condiciones/i
 handler.command = new RegExp
 module.exports = handler 
 
