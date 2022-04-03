@@ -41,6 +41,16 @@ let menu =`
 ┣ ${usedPrefix}estado
 ╰═══ .✧. ═══╯
 ╭═══ .✧. ═══╮
+┃ MMINECRAFT 
+ ━━━━ † ━━━━━
+┣ ${usedPrefix}app
+ ━━━━━━━━━
+┣LOS SIGUIENTES COMANDO NO DEBES PONER EL PREFIJO (#/.,) RECUERDA *NO*
+ ━━━━━━━━━
+┣ In (sirve para anunciar que tu servidor ya esta prendido)
+┣ ip (sirve para que puedas dar la ip de tu server / si no te aparece nada es porque debes hablar con el owner para que ponga tu ip)
+╰═══ .✧. ═══╯
+╭═══ .✧. ═══╮
 ┃ UNE UN BOT A TU GRUPO
  ━━━━ † ━━━━━━
 ┣ ${usedPrefix}join *link del grupo*
@@ -80,7 +90,31 @@ let menu =`
 ┣ ${usedPrefix}acortar *link*
 ╰═══ .✧. ═══╯
 ╭═══ .✧. ═══╮
-┃ GESTION DE GRUPOS 
+┃ CREADORES
+ ━━━━ † ━━━━━
+┣ ${usedPrefix}s
+┣ ${usedPrefix}sticker
+┣ ${usedPrefix}attp *texto*
+┣ ${usedPrefix}style *texto*
+┣ ${usedPrefix}attp2 *texto*
+┣ ${usedPrefix}stickerfilter
+┣ ${usedPrefix}gif *responde a un sticker/video*
+┣ ${usedPrefix}subirestado *texto / responder video, imagen o gif*
+╰═══ .✧. ═══╯
+╭═══ .✧. ═══╮
+┃ AUDIOS 
+ ━━━━ † ━━━━━
+┣ ${usedPrefix}menuaudios
+╰═══ .✧. ═══╯
+╭═══ .✧. ═══╮
+┃ CONVIERTETE EN BOT
+ ━━━━ † ━━━━━
+┣ ${usedPrefix}stop
+┣ ${usedPrefix}jadibot
+┣ ${usedPrefix}getcode
+╰═══ .✧. ═══╯
+╭═══ .✧. ═══╮
+┃ PARA ADMINISTRADORES 
  ━━━━ † ━━━━━
 ┣  ${usedPrefix}admins *texto* 
 ┣  ${usedPrefix}añadir *numero* 
@@ -107,30 +141,6 @@ let menu =`
 ┣  ${usedPrefix}fantasmas
 ┣  ${usedPrefix}banchat
 ┣  ${usedPrefix}unbanchat
-╰═══ .✧. ═══╯
-╭═══ .✧. ═══╮
-┃ CREADORES
- ━━━━ † ━━━━━
-┣ ${usedPrefix}s
-┣ ${usedPrefix}sticker
-┣ ${usedPrefix}attp *texto*
-┣ ${usedPrefix}style *texto*
-┣ ${usedPrefix}attp2 *texto*
-┣ ${usedPrefix}stickerfilter
-┣ ${usedPrefix}gif *responde a un sticker/video*
-┣ ${usedPrefix}subirestado *texto / responder video, imagen o gif*
-╰═══ .✧. ═══╯
-╭═══ .✧. ═══╮
-┃ AUDIOS 
- ━━━━ † ━━━━━
-┣ ${usedPrefix}menuaudios
-╰═══ .✧. ═══╯
-╭═══ .✧. ═══╮
-┃ CONVIERTETE EN BOT
- ━━━━ † ━━━━━
-┣ ${usedPrefix}stop
-┣ ${usedPrefix}jadibot
-┣ ${usedPrefix}getcode
 ╰═══ .✧. ═══╯
 ╭═══ .✧. ═══╮
 ┃ PROPIETARO DEL BOT
