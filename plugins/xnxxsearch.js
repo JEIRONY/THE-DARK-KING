@@ -28,6 +28,4 @@ handler.command = /^(xnxxsearch|searchxnxx)$/
 handler.fail = null
 handler.group = true
 handler.admin = true
-handler.premium = false
-handler.botAdmin = false
 module.exports = handler
