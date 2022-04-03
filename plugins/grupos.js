@@ -1,5 +1,3 @@
-let { MessageType } = require('@adiwajshing/baileys')
-let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   
 let info = `
@@ -10,7 +8,8 @@ let info = `
 
 `.trim() 
 
-conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE DARK KING 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})}
-
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE DARK KING - BOT 🔥*', 'status@broadcast')
+}
 handler.command = /^(grupos|gruposofc|gruposofc)$/i
+
 module.exports = handler
