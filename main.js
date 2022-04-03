@@ -39,7 +39,7 @@ if (!global.DATABASE.data.stats) global.DATABASE.data.stats = {}
 if (!global.DATABASE.data.msgs) global.DATABASE.data.msgs = {}
 if (!global.DATABASE.data.sticker) global.DATABASE.data.sticker = {}
 global.conn = new WAConnection()
-conn.browserDescription = ['The Shadow Brokers - Bot', 'Firefox', '3.0']
+conn.browserDescription = ['JEISON BOTS', 'Firefox', '3.0']
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
@@ -131,7 +131,7 @@ ptt: true
   conn.bye = '————————》𝑨𝑫𝑰𝑶𝑺  @user《—————————\n————————》𝑸𝑼𝑬 𝑻𝑬 𝑽𝑨𝒀𝑨 𝑩𝑰𝑬𝑵 𝑬𝑵 𝑻𝑼 𝑽𝑰𝑫𝑨,𝑬𝑺𝑷𝑬𝑹𝑶 𝑽𝑶𝑳𝑽𝑬𝑹𝑻𝑬 𝑨 𝑽𝑬𝑹《—————————'
   conn.spromote = '*@user ¡𝑸𝑼𝑬 𝑨𝑳𝑬𝑮𝑹𝑰𝑨𝑨𝑨𝑨𝑨 𝒀𝑨 𝑬𝑹𝑬𝑺 𝑨𝑫𝑴𝑰𝑵𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑹!, 𝑹𝑬𝑪𝑼𝑬𝑹𝑫𝑨 𝑹𝑬𝑺𝑷𝑬𝑻𝑨𝑹 𝑨 𝑻𝑶𝑫𝑶𝑺'
   conn.sdemote = '@user 𝑳𝑶 𝑺𝑰𝑬𝑵𝑻𝑶 𝑨𝑴𝑰𝑮𝑶 𝑴𝑰𝑶 𝑽𝑬𝑶 𝑸𝑼𝑬 𝑺𝑬 𝑻𝑬 𝑯𝑨 𝑩𝑨𝑱𝑨𝑫𝑶 𝑫𝑬 𝑹𝑨𝑵𝑮𝑶, 𝑨𝑯𝑶𝑹𝑨 𝑬𝑹𝑬𝑺 𝑼𝑵 𝑴𝑰𝑬𝑴𝑩𝑹𝑶 𝑪𝑶𝑴𝑼𝑵 𝑴𝑨𝑺'
-  conn.handler = handler.handler
+   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate
   conn.onCall = handler.onCall
@@ -236,9 +236,9 @@ async function _quickTest() {
   require('./lib/sticker').support = s
   Object.freeze(global.support)
 
-  if (!s.ffmpeg) conn.logger.warn('Please install ffmpeg for sending videos (pkg install ffmpeg)')
-  if (s.ffmpeg && !s.ffmpegWebp) conn.logger.warn('Stickers may not animated without libwebp on ffmpeg (--enable-ibwebp while compiling ffmpeg)')
-  if (!s.convert && !s.magick && !s.gm) conn.logger.warn('Stickers may not work without imagemagick if libwebp on ffmpeg doesnt isntalled (pkg install imagemagick)')
+  if (!s.ffmpeg) conn.logger.warn('Por favor instale  ffmpeg para asi poder enviar videos  (pkg install ffmpeg)')
+  if (s.ffmpeg && !s.ffmpegWebp) conn.logger.warn('si no tienes  libwebp en ffmpeg los stickers no tendran movimiento (--enable-ibwebp while compiling ffmpeg)')
+  if (!s.convert && !s.magick && !s.gm) conn.logger.warn('Es posible que las pegatinas no funcionen sin imagemagick si libwebp en ffmpeg no está instalado (pkg install imagemagick)')
 }
 
 _quickTest()
