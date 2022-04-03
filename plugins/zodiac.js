@@ -24,11 +24,8 @@ Signo zodical : ${zodiac}
 }
 handler.help = ['zodiac *2002 02 25*']
 handler.tags = ['General']
-handler.fail = null
 handler.group = true
 handler.admin = true
-handler.premium = false
-handler.botAdmin = false
 module.exports = handler
 
 const zodiak = [
