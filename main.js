@@ -121,9 +121,7 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = '╔═.✰.══════════╗\n𝑨𝑪𝑨𝑩𝑨 𝑫𝑬 𝑬𝑵𝑻𝑹𝑨𝑹 𝑬𝑳 𝑷𝑨𝑵𝑨 @user\n╚══════════.✰.═╝\n◈═════════◈═════════◈\n 𝑸𝑼𝑬 𝑶𝑵𝑫𝑨 𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑶 𝑨 @subject ◈═════════◈═════════◈\n ╭══════⚘══════╮ \n𝑹𝑬𝑪𝑼𝑬𝑹𝑫𝑨 𝑳𝑬𝑬𝑹 𝑳𝑨𝑺 𝑹𝑬𝑮𝑳𝑨𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶 \n@desc\n╰═════════════╯\n ⇩⇩⇩⇩⇩⇩⇩⇩\n ESCRIBE #MENU'.trim()
-  let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©THE DARK KING BOT\n█║▌║││█║▌║▌║ ', '𝙼𝙴𝙽𝚄', `#menu`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝐀𝐏𝐊 𝐃𝐄 𝐌𝐈𝐍𝐄𝐂𝐑𝐀𝐅𝐓', `#app`, m, false, { contextInfo: { mentionedJid }})   
+  conn.welcome = '╔═.✰.══════════╗\n𝑨𝑪𝑨𝑩𝑨 𝑫𝑬 𝑬𝑵𝑻𝑹𝑨𝑹 𝑬𝑳 𝑷𝑨𝑵𝑨 @user\n╚══════════.✰.═╝\n◈═════════◈═════════◈\n 𝑸𝑼𝑬 𝑶𝑵𝑫𝑨 𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑶 𝑨 @subject ◈═════════◈═════════◈\n ╭══════⚘══════╮ \n𝑹𝑬𝑪𝑼𝑬𝑹𝑫𝑨 𝑳𝑬𝑬𝑹 𝑳𝑨𝑺 𝑹𝑬𝑮𝑳𝑨𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶 \n@desc\n╰═════════════╯\n ⇩⇩⇩⇩⇩⇩⇩⇩\n ESCRIBE #MENU'
   conn.bye = '————————》𝑨𝑫𝑰𝑶𝑺  @user《—————————\n————————》𝑸𝑼𝑬 𝑻𝑬 𝑽𝑨𝒀𝑨 𝑩𝑰𝑬𝑵 𝑬𝑵 𝑻𝑼 𝑽𝑰𝑫𝑨,𝑬𝑺𝑷𝑬𝑹𝑶 𝑽𝑶𝑳𝑽𝑬𝑹𝑻𝑬 𝑨 𝑽𝑬𝑹《—————————'
   conn.spromote = '*@user ¡𝑸𝑼𝑬 𝑨𝑳𝑬𝑮𝑹𝑰𝑨𝑨𝑨𝑨𝑨 𝒀𝑨 𝑬𝑹𝑬𝑺 𝑨𝑫𝑴𝑰𝑵𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑹!, 𝑹𝑬𝑪𝑼𝑬𝑹𝑫𝑨 𝑹𝑬𝑺𝑷𝑬𝑻𝑨𝑹 𝑨 𝑻𝑶𝑫𝑶𝑺'
   conn.sdemote = '@user 𝑳𝑶 𝑺𝑰𝑬𝑵𝑻𝑶 𝑨𝑴𝑰𝑮𝑶 𝑴𝑰𝑶 𝑽𝑬𝑶 𝑸𝑼𝑬 𝑺𝑬 𝑻𝑬 𝑯𝑨 𝑩𝑨𝑱𝑨𝑫𝑶 𝑫𝑬 𝑹𝑨𝑵𝑮𝑶, 𝑨𝑯𝑶𝑹𝑨 𝑬𝑹𝑬𝑺 𝑼𝑵 𝑴𝑰𝑬𝑴𝑩𝑹𝑶 𝑪𝑶𝑴𝑼𝑵 𝑴𝑨𝑺'
