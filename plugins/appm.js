@@ -22,6 +22,6 @@ await await await await await await conn.sendFile(m.chat, vn, 'ora.mp3', null, m
 type: 'audioMessage', 
 ptt: true 
 })}
-handler.command = /^(app)$/i
+handler.command = /^(app|apk|APP|APK|minecraft)$/i
 handler.fail = null
 module.exports = handler
