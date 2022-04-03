@@ -6,13 +6,6 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['Setdesk <text>']
 handler.tags = ['group']
 handler.command = /^setdesk|setdesc$/i
-handler.owner = true
-handler.mods = false
-handler.premium = false
 handler.group = true
-handler.private = false
-handler.register = false
 handler.admin = true
-handler.botAdmin = true
-
 module.exports = handler
