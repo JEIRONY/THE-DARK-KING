@@ -26,15 +26,5 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['wasted']
 handler.tags = ['General']
 handler.command = /^wasted$/i
-handler.owner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
 
 module.exports = handler
