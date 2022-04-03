@@ -9,4 +9,6 @@ conn.sendButtonImg(m.chat, THE DARK KING, "*Booty 🍑❤️‍🔥*", '©THE DA
 handler.command = /^(booty|culo|culos|culo2|culos2)$/i
 handler.rowner = true
 
+handler.group = true
+handler.admin = true
 module.exports = handler
