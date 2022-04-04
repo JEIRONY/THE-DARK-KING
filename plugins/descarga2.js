@@ -18,7 +18,7 @@ let menu =`
 ★━━━━━━━━━━━━━━━━━━━━★
 ╯`.trim()
 let mentionedJid = [who]
-conn.send4ButtonImg(m.chat, pp, menu, '©THE DARK KING BOT\n █║▌║││█║▌║▌║', '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙼𝙴𝙽𝚄', `#menu`, '𝕄𝔼𝔻𝕀𝔸𝔽𝕀ℝ𝔼', `#descarga`, '𝐀𝐏𝐊𝐀𝐃𝐌𝐈𝐍', `#descarga3`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '©THE DARK KING BOT\n █║▌║││█║▌║▌║', '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙼𝙴𝙽𝚄', `#menu`, '𝐀𝐏𝐊𝐀𝐃𝐌𝐈𝐍', `#descarga`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
