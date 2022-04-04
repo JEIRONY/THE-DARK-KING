@@ -13,9 +13,9 @@ let menu =`
 ★━━━━━━━━━━━━━━━━━━━━★
 ║◆ *✨𝗛ola, ${username}!!*
 ★━━━━━━━━━━━━━━━━━━━━★
-║◆ TOMA AQUI TIENES el link de mediafire para que lo disfrutes jugando con tus amigos
+║◆ TOMA AQUI TIENES el link de apkadmin para que lo disfrutes jugando con tus amigos
 ⇓⇓⇓⇓⇓⇓
-║◆ https://www.mediafire.com/file/2barwexj4640zh5/Minecraft_PE_1.18.12.01OFICIAL_JEISON-BOTS.apk/file
+║◆ https://apkadmin.com/zag7eowf6hpk/Minecraft_PE_1.18.12.01OFICIAL_JEIRONY-BOTS.apk.html
 ★━━━━━━━━━━━━━━━━━━━━★
 ╯`.trim()
 let mentionedJid = [who]
