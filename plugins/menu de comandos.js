@@ -15,7 +15,7 @@ let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
 ╭╭──────────♡
- *JEIRONY*
+ *THE DARK KING BOT*
  ━━━━━━ † ━━━━━━━━
  *𝗛ola, ${username}!!*
  ━━━━━━ † ━━━━━━━━
