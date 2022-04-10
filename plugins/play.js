@@ -28,9 +28,12 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (yt2 === false) throw '*Todos los servidores fallaron*'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
-*🔥 Titulo:* _${title}_
-*📂 Peso del audio:* _${filesizeF}_
-*📂 Peso del video:* _${yt2.filesizeF}_
+📌 Titulo: ${title}
+🔗 Url: ${url}
+🗒️ Descrición: ${description}
+⏲️ Publicado: ${publishedTime}
+⌚ Duración: ${durationH}
+👁️ Vistas: ${viewH}
 `.trim(), '©THE DARK KING', '🎵 AUDIO 💽 ', `.yta ${vid.url}`, '🎥 VIDEO 🎞️', `.yt ${vid.url}`)
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
