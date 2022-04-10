@@ -15,16 +15,5 @@ conn.sendFile(m.chat, dl_link , `By ${conn.user.name}.mp3`, m, false, {ptt: true
 conn.sendFile(m.chat, dl_link , `By ${conn.user.name}.mp3`, m)
 }
 handler.command = /^yt(a|mp3)$/i
-handler.owner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
 
 module.exports = handler
