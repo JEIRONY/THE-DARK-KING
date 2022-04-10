@@ -1,5 +1,7 @@
-let util = require('util')
 let simple = require('./lib/simple')
+let util = require('util')
+let fs = require('fs')
+let chalk = require('chalk')
 let { MessageType } = require('@adiwajshing/baileys')
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
