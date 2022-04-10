@@ -1,5 +1,3 @@
-let { MessageType } = require('@adiwajshing/baileys')
-let fs = require('fs')
 let os = require('os')
 let util = require('util')
 let { performance } = require('perf_hooks')
@@ -48,9 +46,9 @@ let handler = async (m, { conn, usedPrefix }) => {
   let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
   let speed = neww - old
   let info = `
-═〘 *Informacion del Bot* 〙 ═
+╠═〘 *Informacion del Bot* 〙 ═
 ╠
-╠➥ [🤴🏻] Creador del Bot: 𝗝𝗘𝗜𝗥𝗢𝗡𝗬
+╠➥ [🤴🏻] Creador del Bot: *JEIRONY*
 ╠➥ [#️⃣] Numero del creador: *+573152139466*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [✅] version: *${conn.browserDescription[2]}*
@@ -68,7 +66,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠
 ╠═〘 *𝑱𝑬𝑰𝑺𝑶𝑵 - Bot* 〙 ═
 `.trim() 
-conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE DARK KING 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})
+  conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 TE DARK KING BOT🔥*', 'status@broadcast')
 }
 //handler.help = ['ping', 'speed']
 //handler.tags = ['info', 'tools']
