@@ -30,16 +30,4 @@ conn.sendFile(m.chat, dl_link, title + '.mp3', `
 })
 }
 handler.command = /^dlyt|dlaudio|dlytaud|dlaud$/i
-handler.owner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-
 module.exports = handler
