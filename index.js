@@ -9,7 +9,7 @@ CFonts.say('THE DARK\nKING\nBOT', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`Subscribete a JEIRONY\n\nBot creado por Bruno Sobrino\n EDITADO POR JEIRONY`, {
+CFonts.say(`Subscribete a JEIRONY\n\nBOT CREADO POR BRUNO SOBRINO\n EDITADO POR JEIRONY`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
