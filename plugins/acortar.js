@@ -11,17 +11,4 @@ m.reply(hasil)
 handler.help = ['tinyurl','short2'].map(v => v + ' <link>')
 handler.tags = ['tools']
 handler.command = /^(tinyurl|short2|acortar|corto)$/i
-handler.owner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = false
-
 module.exports = handler
