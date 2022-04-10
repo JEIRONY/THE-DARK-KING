@@ -23,17 +23,4 @@ let _thumb = {}
 ptt: false, duration: 999999999999, thumbnail: y , asDocument: chat.useDocument})
 }
 handler.command = /^yt(v|mp4)?$/i
-handler.owner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = false
-
 module.exports = handler
