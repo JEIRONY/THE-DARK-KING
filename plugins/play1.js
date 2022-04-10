@@ -24,7 +24,5 @@ conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
 `.trim(), m, false, _thumb || {})}
 handler.help = ['play' , 'play2']
 handler.command = /^play2?$/i
-handler.group = false
-handler.registrar = false
-handler.limit = false
+
 module.exports = handler
