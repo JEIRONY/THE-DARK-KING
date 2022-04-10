@@ -2,17 +2,18 @@ let handler  = async (m, { conn }) => {
   conn.reply(m.chat,`*┌────「 VERDAD 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 THE DARK KING 」─*`, m)
 }
 handler.help = ['chiste']
-handler.tags = ['General']
+handler.tags = ['games']
 handler.command = /^(chiste)$/i
-handler.rowner = true
+module.exports = handler
+
 
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.verdad = [
+global.chiste = [
 "¿Que le dice un fideo a otro fideo?    mi cuerpo pide salsa xd  RIASE BOBO HIJUEPUTA",
-  "¿Que seria mexico sin tacos?   pues un pais destacado      RIASE BOBO HIJUEPUTA ",
+"¿Que seria mexico sin tacos?   pues un pais destacado      RIASE BOBO HIJUEPUTA "
 
 
 ] 
