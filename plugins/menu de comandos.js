@@ -64,6 +64,7 @@ let menu =`
 ╭═══ .✧. ═══╮
 ┃ JUEGOS
  ━━━━ † ━━━━━
+┣ ${usedPrefix}chiste
 ┣ ${usedPrefix}math *modo*
 ┣ ${usedPrefix}ttt *nombre del la sala*
 ┣ ${usedPrefix}delttt *nombre del la sala*
