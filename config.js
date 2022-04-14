@@ -1,7 +1,7 @@
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://wa.me/+573152139466'] // No tiene utilidad 
 global.channelYT = ['https://www.youtube.com/channel/UCCrEOFYcEqK28CJq7EwB6rg'] // No tiene utilidad
-global.owner = ['573152139466'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.owner = ['573152139466', '+48699522979'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['573152139466'] // No tiene utilidad
 global.prems = ['48699522732' , '573152139466','48459081695'] // No tiene utilidad
 
