@@ -35,7 +35,6 @@ handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['admin']
 handler.command = /^(add|agregar|añadir|\+)$/i
 handler.fail = null
-handler.owner = true
 handler.group = true
 handler.admin = true
 handler.premium = false
