@@ -9,9 +9,8 @@ handler.tags = ['admin']
 handler.command = /^(kick|sacar|\-)$/i
 
 handler.fail = null
-handler.owner = true
 handler.group = true
 handler.admin = true
 handler.premium = false
 handler.botAdmin = false
-module.exports = handler 
+module.exports = handler
