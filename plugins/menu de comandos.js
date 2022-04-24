@@ -94,6 +94,7 @@ let menu =`
 ┃ CREADORES
  ━━━━ † ━━━━━
 ┣ ${usedPrefix}s
+┣ ${usedPrefix}tts *texto*
 ┣ ${usedPrefix}sticker
 ┣ ${usedPrefix}attp *texto*
 ┣ ${usedPrefix}style *texto*
