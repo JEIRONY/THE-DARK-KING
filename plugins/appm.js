@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 let pp = './Bot.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
-let vn = './media/Hola.mp3'
+let vn = './media/Minecraft.apk'
 let menu =`
 =☆=☆=【MENU MINECRAFT】=☆=☆=
 ★━━━━━━━━━━━━━━━━━━━━★
