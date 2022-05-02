@@ -180,11 +180,7 @@ let menu =`
 ┣ ${usedPrefix}disable *autoread*
 ╰═══ .✧. ═══╯`.trim()
 let mentionedJid = [who]
-conn.sendButtonImg(m.chat, pp, menu, '©THE DARK KING BOT\n █║▌║││█║▌║▌║ ', '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, m, false, { contextInfo: { mentionedJid }})   
-//await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
-//type: 'audioMessage', 
-//ptt: true 
-//})
+
 }
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
 handler.fail = null
